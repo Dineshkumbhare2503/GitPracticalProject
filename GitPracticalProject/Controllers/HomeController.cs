@@ -32,5 +32,9 @@ namespace GitPracticalProject.Controllers
 		{
 			return View();
 		}
+		public IActionResult LogInView()
+		{
+			return View();
+		}
 	}
 }
